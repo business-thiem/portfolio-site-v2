@@ -1,6 +1,7 @@
 import './header.css'
 import CTA from './CTA'
-import mypic1 from '../../assets/thiem-pro-photo.jpg'
+import HeaderSocials from './HeaderSocials'
+import mypic1 from '../../assets/tnh-pro-cut1.png'
 
 const Header = () => {
   return (
@@ -10,10 +11,15 @@ const Header = () => {
         <h1>Thiem (Tim) Huynh</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
+        <HeaderSocials/>
+
 
         <div className="profilePic">
           <img src={mypic1} alt="Tim in a suit" />
         </div>
+
+
+
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
