@@ -21,11 +21,7 @@ const App = () => {
         <Testimonial />
         <Contact />
         <Footer />
-
-        
     </>
-
-
   )
 }
 
