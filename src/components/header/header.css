@@ -26,9 +26,9 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 3rem;
     bottom: 3rem;
-
+    font-size: 2rem;
 }
 
 .header__socials::after {
@@ -65,11 +65,24 @@ header {
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px){
-    
+    header{
+        height: 68vh;
+    }
+    section{
+        margin-top: 6rem;
+    }
 }
 
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px){
+    header{
+        height:100vh;
+    }
 
+    .header__socials,.scroll__down{
+        /* hides scroll and social icons on phones */
+        display:none; 
+
+    }
 }
