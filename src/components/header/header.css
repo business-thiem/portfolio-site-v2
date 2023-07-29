@@ -67,7 +67,7 @@ header {
 @media screen and (max-width: 1024px){
     header{
         width:90%;
-        height: 100vh;
+        /* height: 100vh; */
         margin:0 auto 3rem;
     }
     section{
@@ -80,13 +80,17 @@ header {
 @media screen and (max-width: 600px){
     header{
         width:80%;
-        height:100vh;
+        /* height:100vh; */
         margin:0 auto 3rem;
     }
 
     .header__socials,.scroll__down{
         /* hides scroll and social icons on phones */
         display:none; 
+    }
 
+    .profilePic{
+        margin:3rem auto 1rem;
+        width: 20rem;
     }
 }

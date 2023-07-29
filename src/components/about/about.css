@@ -52,7 +52,7 @@ section{
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-    transition: 1s;
+    transition: var(--box-animations);
 }
 
 .about__card:hover{
