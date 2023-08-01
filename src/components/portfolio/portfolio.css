@@ -1,0 +1,78 @@
+
+
+h6{
+    color:rgba(47, 79, 79, 0.945);
+    font-size:.7rem;
+}
+
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    border: 0.5px solid transparent;
+    transition: var(--transition);
+    width: 25rem;
+}
+
+.portfolio__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image{
+    border-radius: 1rem;
+    overflow: hidden;
+    /* width:90% auto; */
+}
+
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta{
+    display:flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* ================= MEDIA QUERIES (In between LG-MD DEVICES) ================= */
+@media screen and (max-width: 1200px){
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .portfolio__item {
+        width: 22rem;
+    }
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px){
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .portfolio__item {
+        width: auto;
+    }
+
+}
+
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px){
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .portfolio__item {
+        margin:0 5%;
+    }
+}

@@ -49,8 +49,9 @@ const About = () => {
                 <h6>&#40;disclaimer: numbers are for presentation purposes only&#41;</h6>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non porta turpis. Sed at placerat lectus, sed tristique magna. In ac justo nec ligula aliquet placerat. Suspendisse nec justo ante. Duis eleifend eu orci vulputate tempus. Nam sit amet ipsum malesuada, pharetra tortor in, ullamcorper odio. Donec vitae ultrices lectus. Nulla ornare velit sit amet purus egestas, sit amet malesuada urna iaculis. 
               </p>
-
-              <a href="#contact" className="btn btn-primary">Let's Talk</a>
+              <div className="btn-container">
+                <a href="#contact" className="btn btn-primary">Let's Talk</a>
+              </div>
             </div>
         </div>
       </div>

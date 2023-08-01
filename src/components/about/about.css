@@ -86,6 +86,11 @@ section{
     color: var(--color-light)
 }
 
+
+.btn-container{
+    text-align:center; /* this helps center align the btn */
+}
+
 /* ================= MEDIA QUERIES (Additional Fixes) ================= */
 @media screen and (max-width: 1200px){
     section{
@@ -148,5 +153,8 @@ section{
 
     .about__content p{
         margin: 1.5rem 0;
+    }
+    .connect-btn{
+        left: 40%;
     }
 }
