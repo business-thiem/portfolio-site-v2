@@ -1,0 +1,12 @@
+.avatar-img__container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem
+}
+
+.avatar__image{
+    max-width:10rem;
+    overflow:hidden;
+    margin: 0 auto;
+    border: 3px solid white;
+}

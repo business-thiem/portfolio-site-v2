@@ -14,8 +14,9 @@ const Portfolio = () => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
+                  {image}
                   <img src={image} alt={title} />
-                  <h3>{title}<h6>(TODO: place link to the actual demo when hosting is online)</h6> </h3>
+                  <h3>{title} <h6>(TODO: place link to the actual demo when hosting is online)</h6> </h3>
                   <div className="portfolio__item-cta">
                     <a href={github} className="btn" target='_blank' rel="noreferrer">Github</a>
                     <a href={demo} className='btn btn-primary' target='_blank'  rel="noreferrer">Live Demo</a>
@@ -25,6 +26,8 @@ const Portfolio = () => {
             )
           })
         }
+
+        
 
 
 
@@ -44,4 +47,6 @@ const Portfolio = () => {
     </section>
   )
 }
+
+// console.log(`this is data`, data);
 export default Portfolio
