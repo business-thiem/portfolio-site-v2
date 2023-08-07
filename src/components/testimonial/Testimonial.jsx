@@ -13,7 +13,7 @@ const Testimonial = () => {
         {
           reviewData.map(({id, clientName, comment}) => {
             return (
-              <article className="testimonial">
+              <article key={id} className="testimonial">
                 <div className="client__avatar">
                   <img src={images[id]} className="avatar__image" alt={"avatar image " + id + " of " + clientName} />
                 </div>
