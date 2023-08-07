@@ -8,11 +8,12 @@
     width: 6rem;
 }
 
-.testimonials__container{
-    width:40%;
+.container.testimonials__container{
+    width:50%;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    gap:1rem;
+    /* gap:1rem; */
+    padding-bottom: 3rem;
 }
 
 
@@ -41,6 +42,10 @@
     width:80%;
     margin: 0.8rem auto 0 ;
     text-align: left;
+}
+
+.swiper-pagination-bullet-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
 }
 
 
