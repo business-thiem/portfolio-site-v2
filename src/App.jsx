@@ -9,7 +9,10 @@ import Testimonial from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
+
+
 const App = () => {
+  console.log(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
   return (
     <>
         <Header />

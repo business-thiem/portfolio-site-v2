@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 import reviewData from './testimonial-sample.jsx'
 import images from './dynamic-imageImport.jsx'
 
-
+// TODO: add a read more section to hide all the text on mobile
 
 images.pop(); //deletes the empty last element
 
