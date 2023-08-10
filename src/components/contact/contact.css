@@ -5,7 +5,7 @@
     gap: 12%;
 }
 
-.container__options{
+.contact__options{
     display:flex;
     flex-direction:column;
     gap: 1.2rem;
