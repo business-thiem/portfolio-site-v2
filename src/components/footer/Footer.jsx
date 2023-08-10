@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './footer.css'
 import {FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
 
