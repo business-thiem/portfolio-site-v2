@@ -14,7 +14,6 @@ const Portfolio = () => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
-                  {image}
                   <img src={image} alt={title} />
                   <h3>{title} <h6>(TODO: place link to the actual demo when hosting is online)</h6> </h3>
                   <div className="portfolio__item-cta">
